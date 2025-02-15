@@ -1,5 +1,7 @@
 public class Qn17 {
     public static void main(String[] args) {
+
+        // additive or multiplicative operator
         int x = 10, y = 5;
         int exp1 = (y * (x / y + x / y));
         int exp2 = (y * x / y + y * x / y);

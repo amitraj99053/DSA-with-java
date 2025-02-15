@@ -1,5 +1,7 @@
 public class Qn14 {
     public static void main(String[] args) {
+
+        // logical AND (&&) or relational (<,>) operator
         int x = 200, y = 50, z = 100;
         if(x > y && y > z){
             System.out.println("Hello");
