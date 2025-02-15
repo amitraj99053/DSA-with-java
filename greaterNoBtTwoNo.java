@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// larger between two no
 public class greaterNoBtTwoNo {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
