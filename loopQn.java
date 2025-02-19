@@ -2,14 +2,12 @@ import java.util.Scanner;
 
 public class loopQn {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int num = in.nextInt();
+        int num = 0;
 
-        //while loop
-        // error
-        while (num <= 5){
-            System.out.println("5");
+        while (num < 10){  // while loop
+            System.out.println("Hello World");
+            num++;
         }
-
+        System.out.println("Printing Hello World 10 times");
     }
 }
