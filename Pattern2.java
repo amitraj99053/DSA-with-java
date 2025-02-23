@@ -9,11 +9,10 @@ half pyramid (Input type)
 public class Pattern2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.print("Enter no: ");
         int num = in.nextInt();
 
-        for (int i=1; i<=num; i++){  // row
-            for (int j=1; j<=i; j++){  // column
+        for (int line=1; line<=num; line++){  // row
+            for (int star=1; star<=line; star++){  // column
                 System.out.print("*");
             }
             System.out.println();

@@ -6,9 +6,9 @@ public class Pattern6 {
         System.out.print("Enter no: ");
         int n = in.nextInt();
 
-        for (int i=1; i<=n; i++){
-            for (int j=1; j<=i; j++){
-                System.out.print(j);
+        for (int line=1; line<=n; line++){
+            for (int num=1; num<=line; num++){
+                System.out.print(num);
             }
             System.out.println();
         }
