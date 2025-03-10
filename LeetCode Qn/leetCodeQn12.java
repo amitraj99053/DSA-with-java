@@ -10,22 +10,21 @@ public class leetCodeQn12 {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
 
         System.out.print("Enter the number of elements: ");
-        int n = scanner.nextInt();
+        int n = in.nextInt();
 
         int[] nums = new int[n];
         System.out.print("Enter the elements separated by spaces: ");
         for (int i = 0; i < n; i++) {
-            nums[i] = scanner.nextInt();
+            nums[i] = in.nextInt();
         }
 
         leetCodeQn12 solution = new leetCodeQn12(); // Create an instance of leetCodeQn12
         int single = solution.singleNumber(nums); // Call singleNumber on the correct instance
 
         System.out.println("The single number is: " + single);
-
-        scanner.close();
+        in.close();       
     }
 }
