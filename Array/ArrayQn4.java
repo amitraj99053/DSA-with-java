@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// maximum/greatest number cheching in entered array list
 
 public class ArrayQn4 {
     public static void main(String[] args) {
