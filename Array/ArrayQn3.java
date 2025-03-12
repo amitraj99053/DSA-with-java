@@ -22,5 +22,6 @@ public class ArrayQn3 {
             sum = sum + arr[i];
         }
         System.out.println(sum);
+        in.close();
     }
 }
