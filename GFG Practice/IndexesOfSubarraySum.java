@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 
-public class Indexes_of_Subarray_Sum {
+public class IndexesOfSubarraySum {
     
     static ArrayList<Integer> subarraySum(int[] arr, int target) {
         // code here
