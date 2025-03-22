@@ -18,5 +18,7 @@ public class ArrayQn4 {
             }
         }
         System.out.println("Maximum no : "+ max);
+
+        in.close();
     }
 }

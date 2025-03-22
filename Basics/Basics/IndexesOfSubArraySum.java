@@ -57,7 +57,7 @@ public class IndexesOfSubArraySum {
             System.out.println();
         }
 
-        in.close();
+        // in.close();
 
     }
 }
