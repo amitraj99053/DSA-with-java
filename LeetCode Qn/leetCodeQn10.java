@@ -36,6 +36,11 @@ class Solution {
             end--;
         }
     }
+
+    public int minSubArrayLen(int target1, int[] nums1) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'minSubArrayLen'");
+    }
 }
 
 public class leetCodeQn10 { // Or any name for your main class
