@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 public class loopQn {
     public static void main(String[] args) {

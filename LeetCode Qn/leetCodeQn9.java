@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 // Qn18.  4sum
 public class leetCodeQn9 {
 
@@ -49,7 +48,6 @@ public class leetCodeQn9 {
         }
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
         int[] nums1 = {1, 0, -1, 0, -2, 2};
         int target1 = 0;
         List<List<Integer>> result1 = fourSum(nums1, target1);

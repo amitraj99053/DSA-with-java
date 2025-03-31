@@ -31,5 +31,8 @@ public class mathClass2 {
 
         // return the hyperbolic tangent value of a
         System.out.println("Tangent value of a is: " +Math.tanh(a));
+
+        // converting values to radian
+        System.out.println("Radian value of a is: "+ b); 
     }
 }

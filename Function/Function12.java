@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class Function12 {
     //   function overloading using data type

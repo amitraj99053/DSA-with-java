@@ -1,4 +1,5 @@
 public class Qn12 {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         // AND logical operators
         System.out.println((3>2) && (5>2)); // ture operation return true only
