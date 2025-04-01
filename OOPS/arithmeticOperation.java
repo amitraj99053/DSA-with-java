@@ -1,5 +1,3 @@
-package OOPS;
-
 public class arithmeticOperation {
     public static void main(String[] args) {
         // arithmetic operation
