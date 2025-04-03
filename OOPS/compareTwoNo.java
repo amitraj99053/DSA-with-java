@@ -12,5 +12,7 @@ public class compareTwoNo {
         } else {
             System.out.println(num2+ " is greater");
         }
+
+        in.close();
     }
 }
