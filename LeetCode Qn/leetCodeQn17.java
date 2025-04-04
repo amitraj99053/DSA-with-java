@@ -35,6 +35,7 @@ public class leetCodeQn17 {
         boolean result = solution.containsNearbyDuplicate(nums, k);
 
         System.out.println(result);
+        in.close();
 
     }
 }

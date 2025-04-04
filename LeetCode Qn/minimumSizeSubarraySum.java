@@ -51,5 +51,6 @@ public class minimumSizeSubarraySum {
         int result5 = solution.minSubArrayLen(target5, nums5);
         System.out.println("Example 5: target = " + target5 + ", nums = " + java.util.Arrays.toString(nums5) + ", Result = " + result5);
 
+        
     }
 }
