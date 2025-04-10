@@ -15,19 +15,19 @@ class Pen {
     private String color;
     private int tip;
 
-    String getColor() {
+    public String getColor() {
         return this.color;
     }
 
-    int getTip() {
+    public int getTip() {
         return this.tip;
     }
 
-    void setColor(String newColor) {
+    public void setColor(String newColor) {
         this.color = newColor;
     }
 
-    void setTip(int tip) {
+    public void setTip(int tip) {
         this.tip = tip;
     }
 }
