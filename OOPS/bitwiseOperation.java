@@ -6,31 +6,31 @@ public class bitwiseOperation {
         System.out.print("Enter two no: ");
         int num1 = in.nextInt();
         int num2 = in.nextInt(); 
-        int num3 = 0;
       
-        //AND
+        //AND Operator
         System.out.println("num1 & num2 = " + (num1 & num2));
         
-        //OR
+        //OR Operator
         System.out.println("num1 | num2 = " + (num1 | num2) );
         
-        //XOR
+        //XOR Operator
         System.out.println("num1 ^ num2 = " + (num1 ^ num2) );
         
         //Complement Operator
-        System.out.println("~num1 = " + ~num1 );
+        int comple = ~num1;
+        System.out.println("~num1 = " + comple );
       
         //Left Shift Operator
-        num3 = num1 <<  2;
-        System.out.println("num1 << 1 = " + num3 );
+        int LeftShift = num1 <<  2;
+        System.out.println("num1 << 2 = " + LeftShift );
       
         //Right Shift Operator
-        num3 = num1 >>  2;
-        System.out.println("num1 >> 1  = " + num3 );
+        int RightShift = num1 >>  2;
+        System.out.println("num1 >> 2  = " + RightShift );
       
         //Shift right zero fill operator
-        num3 = num1 >>> 2;
-        System.out.println("num1 >>> 1 = " + num3 );
+        int ShiftRight = num1 >>> 2;
+        System.out.println("num1 >>> 2 = " + ShiftRight );
     
         in.close();
     }
