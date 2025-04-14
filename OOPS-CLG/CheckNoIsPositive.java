@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// checks if a number is positive, negative or zero.
 public class CheckNoIsPositive {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
