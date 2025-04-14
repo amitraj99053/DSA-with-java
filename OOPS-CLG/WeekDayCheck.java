@@ -19,7 +19,7 @@ public class WeekDayCheck {
             break;
 
             case 4:
-            System.err.println("Thursday");
+            System.out.println("Thursday");
             break;
 
             case 5:
