@@ -31,9 +31,9 @@ public class CheckCoprekarNo {
         int num = in.nextInt();
 
         if (isCoprekate(num)) {
-            System.out.println(num+ "is a coprekate number.");
+            System.out.println(num+ " is a coprekate number.");
         } else {
-            System.err.println(num+ "is not a coprekate number.");
+            System.err.println(num+ " is not a coprekate number.");
         }
 
         in.close();
