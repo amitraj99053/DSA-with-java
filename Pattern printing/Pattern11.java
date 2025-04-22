@@ -1,5 +1,10 @@
 import java.util.Scanner;
 // solid rhombus
+/* 
+Enter no: 2
+ *****
+*****
+*/
 public class Pattern11 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

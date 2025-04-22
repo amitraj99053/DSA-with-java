@@ -1,8 +1,18 @@
 import java.util.Scanner;
+/* 
+Enter no: 
+5
+A
+BC
+DEF
+GHIJ
+KLMNO
+*/
 
 public class Pattern13 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
+        System.out.println("Enter no: ");
         int n = in.nextInt();  // no of lines
         char ch = 'A';
 

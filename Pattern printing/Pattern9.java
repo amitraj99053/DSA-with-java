@@ -1,4 +1,13 @@
 import java.util.Scanner;
+/* 
+number half pyramid with 1,0
+Enter no: 5
+1 
+0 1
+1 0 1
+0 1 0 1
+1 0 1 0 1
+*/
 
 public class Pattern9 {
     public static void main(String[] args) {
