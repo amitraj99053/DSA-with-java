@@ -1,4 +1,5 @@
 /* 
+hollow rectangle
 *****
 *   *
 *   *
