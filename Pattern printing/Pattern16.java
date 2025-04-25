@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 /* 
 floyd's triangle
