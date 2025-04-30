@@ -33,5 +33,6 @@ Explanation: The binary representation of 1 is 1 (no leading zero bits), and its
         int result = leetCodeQn28.findComplement(num);
 
         System.out.println(num+ "Complement is: "+ result);
+        in.close();
     }
 }

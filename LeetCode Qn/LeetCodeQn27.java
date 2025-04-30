@@ -19,5 +19,6 @@ public class LeetCodeQn27 {
         boolean result = leetCodeQn27.isPowerOfFour(num);
 
         System.out.println(num+ " is power of four: " +result);
+        in.close();
     }
 }
