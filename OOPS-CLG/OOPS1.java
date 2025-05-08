@@ -14,5 +14,6 @@ class Student {
     Student(String name) {
         this.name = name;
         this.rollNo = 0;
+        System.out.println("Constructor is called...");
     }
 }
