@@ -1,19 +1,15 @@
 public class OOPS1 {
     public static void main(String args[]) {
-        Student s1 = new Student("AMIT");
+        Student s1 = new Student();
         System.out.println(s1.name);
-        System.out.println(s1.rollNo);
-
     }
 }
 
+// Non-parametrized constructors
 class Student {
     String name;
-    int rollNo;
 
-    Student(String name) {
-        this.name = name;
-        this.rollNo = 0;
-        System.out.println("Constructor is called...");
+    public Student() {
+        System.out.println("constructor is called ...");
     }
 }
