@@ -1,6 +1,6 @@
 import java.util.Scanner;
-// print 0-1 triangle
 /*  
+print 0-1 triangle
 n = 4
 1
 01
