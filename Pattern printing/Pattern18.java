@@ -1,5 +1,7 @@
 import java.util.Scanner;
 /* 
+Butterfly pattern
+
 Enter value of n: 3
 *    *
 **  **
