@@ -14,6 +14,6 @@ public class ArrayQn6 {
      System.out.println("Phy : " + marks[0]);
      System.out.println("Chem : " + marks[1]);
      System.out.println("Math : " + marks[2]);
-     
+     in.close();
     }
 }

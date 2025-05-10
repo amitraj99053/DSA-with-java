@@ -1,5 +1,5 @@
 public class ArrayQn7 {
-    // Linear search
+    // Linear search in array
 
     public static int linearSearch(int numbers[], int key){
 
