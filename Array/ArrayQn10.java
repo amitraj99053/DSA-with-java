@@ -1,5 +1,3 @@
-
-
 public class ArrayQn10 {
     // Binary Search in array
 

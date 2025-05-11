@@ -1,5 +1,5 @@
 public class ArrayQn12 {
-
+// reverse array element
     public static void reverse(int numbers[]) {
         int first = 0, last = numbers.length-1;
 
