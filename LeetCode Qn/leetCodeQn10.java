@@ -41,6 +41,10 @@ class Solution {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'minSubArrayLen'");
     }
+
+    boolean rotateString(String s1, String goal1) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
 }
 
 public class leetCodeQn10 { // Or any name for your main class
