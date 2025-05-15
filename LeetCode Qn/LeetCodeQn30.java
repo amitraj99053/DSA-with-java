@@ -1,4 +1,5 @@
 public class LeetCodeQn30 {
+    // rotate string
     public boolean rotateString(String s, String goal) {
         if (s.length() != goal.length()) {
             return false;
