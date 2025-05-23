@@ -10,6 +10,7 @@ public class Qn1 {
         }
         return false;
     }
+    
     public static void main(String[] args) {
         int num[] = {1, 1, 1, 3, 3, 4, 3, 2, 4, 2};
         int num1[] = {1, 2, 6, 8, 9, 3, 4};
