@@ -15,6 +15,9 @@ public class ArrayQn13 {
     }
     public static void main(String[] args) {
         int[] numbers = {2, 4, 6, 8, 10};
+        int[] numbers1 = {1, 2, 3, 4, 5, 6, 7};
+
         printPairs(numbers);
+        printPairs(numbers1);
     }
 }
