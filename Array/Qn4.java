@@ -1,4 +1,10 @@
 public class Qn4 {
+    /* 
+    You  are  given  an  array prices where prices[i] is  the  price  
+    of  a  given  stock  on  the ith day.Return the maximum profit you 
+    can achieve from this transaction. If you cannot achieve any profit, 
+    return 0.
+    */
     public static int maxProfit(int[] prices) {
         int buy = prices[0];
         int profit = 0;
