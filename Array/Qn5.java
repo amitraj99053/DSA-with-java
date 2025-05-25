@@ -24,7 +24,15 @@ public class Qn5 {
         return res;
     }
     public static void main(String[] args) {
-        
-        
+        Qn5 solution = new Qn5();
+
+        int[] height1 = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+        System.err.println("Water trapped in height1 : " + solution.trap(height1));
+
+        int[] height2 = {4, 2, 0, 3, 2, 5};
+        System.out.println("Water trapped in height2 : " + solution.trap(height2));
+
+        int[] height3 = {1,2,3,4,5};
+        System.out.println("Water trapped in height3 : " + solution.trap(height3));
     }
 }
