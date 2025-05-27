@@ -2,7 +2,7 @@ public class TrapRainWater {
     public static int trappedRainWater(int height[]) {
         int n = height.length;
         if (n <= 2) {
-            return 0; // Cannot trap water with less than 3 bars
+            return 0; 
         }
 
         // Calculate left max boundary - array
@@ -35,12 +35,12 @@ public class TrapRainWater {
 
     public static void main(String[] args) {
         int[] height = {4, 2, 0, 6, 3, 2, 5};
-        System.out.println(trappedRainWater(height)); // Output: 11
+        System.out.println(trappedRainWater(height)); 
 
         int[] height2 = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
-        System.out.println(trappedRainWater(height2)); // Output: 6
+        System.out.println(trappedRainWater(height2)); 
 
         int[] height3 = {4, 2, 3};
-        System.out.println(trappedRainWater(height3)); // Output: 1
+        System.out.println(trappedRainWater(height3)); 
     }
 }
