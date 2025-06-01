@@ -3,7 +3,7 @@ public class BasicSorting {
         for (int i=0; i<arr.length-1; i++) {
             int minPos = i;
             for (int j=i+1; j<arr.length; j++) {
-                if (arr[minPos] > arr[j]) {
+                if (arr[minPos] > arr[j]) {  // to change in decreasing order "<"
                     minPos = j;
                 }
             }
@@ -16,8 +16,9 @@ public class BasicSorting {
 
     public static void printArray(int[] arr) {
         for(int i=0; i<arr.length; i++) {
-            System.out.println(arr[i] + " ");
+            System.out.print(arr[i] + " ");
         }
+        System.out.println();
     }
 
     public static void main(String[] args) {
