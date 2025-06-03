@@ -11,6 +11,7 @@ public class Matrices {
                 }
             }
         }
+        System.out.println("Not found: ");
         return false;
     }
 
@@ -35,7 +36,7 @@ public class Matrices {
             }
             System.out.println();
         }
-        search(matrix, 9);
+        search(matrix, 5);
 
         in.close();
     }
