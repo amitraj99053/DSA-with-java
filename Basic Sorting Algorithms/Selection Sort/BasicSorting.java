@@ -1,4 +1,6 @@
 public class BasicSorting {
+    // selection sort in assending order
+    
     public static void selectionSort(int arr[]) {
         for (int i=0; i<arr.length-1; i++) {
             int minPos = i;
