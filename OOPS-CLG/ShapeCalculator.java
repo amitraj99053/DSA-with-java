@@ -53,7 +53,6 @@ public class ShapeCalculator {
         System.out.println("Area: " + myCircle.getArea());
         System.out.println();
 
-        // --- Demonstrating Polymorphism ---
         Shape polymorphicCircle = new Circle(7.5);
         System.out.println("--- Polymorphic Circle with Radius 7.5 (referred as Shape) ---");
         System.out.println("Perimeter (Circunference): " + polymorphicCircle.getPerimeter());
