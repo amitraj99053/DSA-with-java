@@ -31,7 +31,6 @@ public class Main {
 
         System.out.print("Enter the number of stairs (n): ");
 
-        // Check if input is integer
         if (scanner.hasNextInt()) {
             int n = scanner.nextInt();
 
@@ -45,7 +44,6 @@ public class Main {
             System.out.println("Invalid input! Please enter an integer.");
         }
 
-        // Test cases
         System.out.println("\n=== Test Cases ===");
         int[] testCases = {1, 2, 3, 4, 5, 6, 10};
 
